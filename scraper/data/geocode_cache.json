@@ -39,6 +39,16 @@
   "lng": null,
   "checked": "2026-10-15T15:25:49"
  },
+ "nominatim:{\"city\": \"臺北市\", \"country\": \"臺灣\", \"street\": \"南京東路二段\"}": {
+  "lat": 25.052111,
+  "lng": 121.533715,
+  "checked": "2026-10-22T13:15:19"
+ },
+ "nominatim:{\"city\": \"臺北市\", \"country\": \"臺灣\", \"street\": \"康定路\"}": {
+  "lat": 25.036827,
+  "lng": 121.501507,
+  "checked": "2026-10-22T13:15:24"
+ },
  "nominatim:{\"city\": \"臺北市\", \"country\": \"臺灣\", \"street\": \"忠孝東路四段\"}": {
   "lat": 25.041362,
   "lng": 121.553363,
@@ -69,10 +79,30 @@
   "lng": null,
   "checked": "2026-10-15T13:45:37"
  },
+ "nominatim:{\"q\": \"【樂齡心講堂】\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:22"
+ },
+ "nominatim:{\"q\": \"【樂齡心講堂】-名人座談分享會\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:21"
+ },
  "nominatim:{\"q\": \"全國動物醫院臺北分院樓上\"}": {
   "lat": null,
   "lng": null,
   "checked": "2026-10-15T15:25:44"
+ },
+ "nominatim:{\"q\": \"南京東路二段1號, 臺北市\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:18"
+ },
+ "nominatim:{\"q\": \"名人座談分享會\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:23"
  },
  "nominatim:{\"q\": \"威剛科技總部大樓\"}": {
   "lat": null,
@@ -159,6 +189,11 @@
   "lng": null,
   "checked": "2026-10-15T13:45:40"
  },
+ "nominatim:{\"q\": \"新北市藝文中心\"}|新北市": {
+  "lat": 25.006728,
+  "lng": 121.448157,
+  "checked": "2026-10-22T13:14:37"
+ },
  "nominatim:{\"q\": \"新北市青少年圖書館\"}|新北市": {
   "lat": 24.959389,
   "lng": 121.510958,
@@ -229,6 +264,11 @@
   "lng": null,
   "checked": "2026-10-15T15:25:32"
  },
+ "nominatim:{\"q\": \"臺北南京館\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:17"
+ },
  "nominatim:{\"q\": \"舊宗路一段30巷13號, 臺北市\"}": {
   "lat": null,
   "lng": null,
@@ -263,6 +303,11 @@
   "lat": null,
   "lng": null,
   "checked": "2026-10-14T14:41:32"
+ },
+ "nominatim:{\"q\": \"金車文藝中心臺北南京館\"}": {
+  "lat": null,
+  "lng": null,
+  "checked": "2026-10-22T13:15:16"
  },
  "nominatim:{\"q\": \"關渡碼頭貨櫃市集\"}": {
   "lat": null,
