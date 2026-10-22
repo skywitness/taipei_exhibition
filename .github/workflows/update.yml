@@ -27,7 +27,10 @@ jobs:
     if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     steps:
+      # 取分支最新版本而非觸發當下的 commit，重跑舊的 run 時才不會因落後而 push 失敗
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-python@v6
         with:
@@ -50,12 +53,14 @@ jobs:
             echo "資料沒有變更"
           else
             git commit -m "chore(data): 更新展覽資料 $(TZ=Asia/Taipei date +%F)"
+            # 抓資料要好幾分鐘，期間若有人推新 commit，先接上再推
+            git pull --rebase
             git push
           fi
 
       # 每次部署替 app.js / style.css 加上版本號，避免瀏覽器混用新舊檔案
       - name: 加上檔案版本號
-        run: sed -i "s/__BUILD__/${GITHUB_SHA::8}/g" site/index.html
+        run: sed -i "s/__BUILD__/$(git rev-parse --short=8 HEAD)/g" site/index.html
 
       - uses: actions/configure-pages@v5
 
