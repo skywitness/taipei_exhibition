@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-08T21:55:05+08:00",
+ "updated_at": "2026-11-09T06:06:16+08:00",
  "window": {
-  "from": "2026-11-08",
-  "to": "2027-03-08"
+  "from": "2026-11-09",
+  "to": "2027-03-09"
  },
  "sources": [
   {
@@ -24,7 +24,7 @@
    "name": "華山1914文化創意產業園區",
    "url": "https://www.huashan1914.com/",
    "ok": true,
-   "count": 15
+   "count": 12
   },
   {
    "id": "ntcam",
@@ -95,116 +95,11 @@
    "name": "文化部文化資料開放服務網",
    "url": "https://cloud.culture.tw/",
    "ok": true,
-   "count": 59
+   "count": 49
   }
  ],
- "count": 186,
+ "count": 177,
  "exhibitions": [
-  {
-   "id": "7ebffe6a4c",
-   "title": "集品生活遊食購-經濟部商業發展署年度成果發表暨展售活動",
-   "venue": "華山1914文化創意產業園區 東2A館、東2B館、東2C館、東2D館",
-   "address": "臺北市中正區八德路一段1號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.044609,
-   "lng": 121.529183,
-   "geo_precision": "venue",
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "price": {
-    "text": "未提供票價資訊",
-    "free": null,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.huashan1914.com/exhibition/%E9%9B%86%E5%93%81%E7%94%9F%E6%B4%BB%E9%81%8A%E9%A3%9F%E8%B3%BC-%E5%95%86%E6%A5%AD%E7%99%BC%E5%B1%95%E7%BD%B2%E5%B9%B4%E5%BA%A6%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9A%A8%E5%B1%95%E5%94%AE%E6%B4%BB%E5%8B%95",
-   "ticket_url": null,
-   "image": "https://files.huashan1914.com/%E8%A1%8C%E9%8A%B7%E5%88%8A%E7%99%BB%E5%BB%A3%E5%91%8A_%E5%AE%98%E7%B6%B2banner-1600x700_0.jpg",
-   "organizer": "經濟部商業發展署",
-   "description": "探索商模新未來，享受質感好生活！ 115年度經濟部商業發展署年度成果發表暨展售活動 準備好迎接一場充滿創新與活力的商業盛會了嗎？「115年度經濟部商業發展署年度成果發表暨展售活動」將於11月6日至11月8日在華山1914文創園區盛大登場！本活動集結全國最具潛力的商業服務業品牌，帶您一次看見臺灣商業發展的豐碩成果與未來…",
-   "keywords": [
-    "華山1914文化創意產業園區",
-    "華山1914",
-    "華山文創園區",
-    "華山文化園區"
-   ],
-   "topics": [],
-   "sources": [
-    "huashan"
-   ]
-  },
-  {
-   "id": "2edacb4d32",
-   "title": "《勝利女神：妮姬》4週年特展",
-   "venue": "華山1914文化創意產業園區 中7A館 維修工場",
-   "address": "臺北市中正區八德路一段1號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.044609,
-   "lng": 121.529183,
-   "geo_precision": "venue",
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "price": {
-    "text": "未提供票價資訊",
-    "free": null,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B4%E9%80%B1%E5%B9%B4%E7%89%B9%E5%B1%95",
-   "ticket_url": null,
-   "image": "https://files.huashan1914.com/%E5%AE%98%E7%B6%B2banner%E8%88%87%E6%B4%BB%E5%8B%95%E5%85%A7%E9%A0%81%E4%B8%BB%E5%9C%96.jpeg",
-   "organizer": "熱酷科技有限公司",
-   "description": "《勝利女神：妮姬》#四週年特展 即將登場！ 這次，就換指揮官親自到現場執行任務吧！ 展場還準備了四週年限定體驗與好禮， 更多內容等著指揮官來解鎖……👀🔒 📍展覽資訊 日期：2026年11月7日（六）～11月8日（日） 時間：09:00～17:00（每日最後入場時間16:30） 📍展覽地點 華山1914文化創意產業園區…",
-   "keywords": [
-    "華山1914文化創意產業園區",
-    "華山1914",
-    "華山文創園區",
-    "華山文化園區"
-   ],
-   "topics": [],
-   "sources": [
-    "huashan"
-   ]
-  },
-  {
-   "id": "85253969c8",
-   "title": "我的e生活_第13屆小王子愛塗鴉繪畫比賽展覽",
-   "venue": "華山1914文化創意產業園區 中4A館 紅酒作業場",
-   "address": "臺北市中正區八德路一段1號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.044609,
-   "lng": 121.529183,
-   "geo_precision": "venue",
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "price": {
-    "text": "未提供票價資訊",
-    "free": null,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.huashan1914.com/exhibition/%E6%88%91%E7%9A%84e%E7%94%9F%E6%B4%BB_%E7%AC%AC13%E5%B1%86%E5%B0%8F%E7%8E%8B%E5%AD%90%E6%84%9B%E5%A1%97%E9%B4%89%E7%B9%AA%E7%95%AB%E6%AF%94%E8%B3%BD%E5%B1%95%E8%A6%BD",
-   "ticket_url": null,
-   "image": "https://files.huashan1914.com/%E8%8F%AF%E5%B1%B1%E5%AE%98%E7%B6%B2%E5%AE%A3%E5%82%B3%E5%9C%96.png",
-   "organizer": "味王股份有限公司",
-   "description": "科技，正在悄悄改變我們生活的每一天。 從線上學習、影音娛樂、智慧交通，到與家人朋友分享生活，數位科技早已成為日常的一部分。而在孩子的眼中，科技又會是什麼模樣？ 第13屆「小王子愛塗鴉繪畫比賽」以「我的e生活」為主題，邀請大小朋友從自己的生活出發，用畫筆記錄與科技相遇的每個時刻，也大膽想像屬於未來的生活風景。 今年徵件…",
-   "keywords": [
-    "華山1914文化創意產業園區",
-    "華山1914",
-    "華山文創園區",
-    "華山文化園區"
-   ],
-   "topics": [],
-   "sources": [
-    "huashan"
-   ]
-  },
   {
    "id": "4d0c388624",
    "title": "2026台北萌寵物用品展｜雙11寵物囤貨節11/6~11/9｜台北世貿一館",
@@ -1096,102 +991,6 @@
    ]
   },
   {
-   "id": "5a14d3b308",
-   "title": "【府中15】VR特展《全能元神宮改造王》",
-   "venue": "府中15 5F展覽室",
-   "address": "新北市板橋區府中路15號5樓",
-   "city": "新北市",
-   "district": "板橋區",
-   "lat": 25.009427,
-   "lng": 121.45952,
-   "geo_precision": "venue",
-   "start": "2026-11-09",
-   "end": "2026-11-22",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2084488881764413441",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "府中15"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
-   "id": "21d9fe6d50",
-   "title": "【府中15】VR特展《女海盜》VR系列作",
-   "venue": "府中15 3F展覽室",
-   "address": "新北市板橋區府中路15號3樓",
-   "city": "新北市",
-   "district": "板橋區",
-   "lat": 25.009427,
-   "lng": 121.45952,
-   "geo_precision": "venue",
-   "start": "2026-11-09",
-   "end": "2026-11-22",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2083093985552293888",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "府中15"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
-   "id": "1fb7038d50",
-   "title": "【府中15】VR特展《寂靜》",
-   "venue": "府中15 4F展覽室",
-   "address": "新北市板橋區府中路15號4樓",
-   "city": "新北市",
-   "district": "板橋區",
-   "lat": 25.009427,
-   "lng": 121.45952,
-   "geo_precision": "venue",
-   "start": "2026-11-09",
-   "end": "2026-11-22",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2084492015442714625",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "府中15"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
    "id": "efe26e8466",
    "title": "原來，這就是陪伴",
    "venue": "華山1914文化創意產業園區 中2館",
@@ -1330,39 +1129,6 @@
    "topics": [],
    "sources": [
     "ibon"
-   ]
-  },
-  {
-   "id": "b2a79e929b",
-   "title": "第47屆2026 TECA台北國際音響大展",
-   "venue": "台北圓山大飯店 1-4樓",
-   "address": "臺北市中山區中山北路四段1號",
-   "city": "臺北市",
-   "district": "中山區",
-   "lat": 25.078765,
-   "lng": 121.526206,
-   "geo_precision": "venue",
-   "start": "2026-11-19",
-   "end": "2026-11-22",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2102307621165768705",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "台北圓山大飯店",
-    "圓山大飯店"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
    ]
   },
   {
@@ -2267,36 +2033,6 @@
    "topics": [],
    "sources": [
     "ibon"
-   ]
-  },
-  {
-   "id": "4bdf5a6787",
-   "title": "【2026駐館藝術家開放工作室】「PRE-Remains」展覽導覽",
-   "venue": "國家音樂廳排練室一",
-   "address": "臺北市中正區中山南路21-1號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.036756,
-   "lng": 121.519047,
-   "geo_precision": "source",
-   "start": "2026-12-05",
-   "end": "2026-12-06",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2112454717336662016",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [],
-   "topics": [],
-   "sources": [
-    "moc"
    ]
   },
   {
@@ -5511,8 +5247,7 @@
    ],
    "topics": [],
    "sources": [
-    "ibon",
-    "moc"
+    "ibon"
    ]
   },
   {
@@ -5550,8 +5285,7 @@
    "topics": [],
    "sources": [
     "culture_express",
-    "ibon",
-    "moc"
+    "ibon"
    ]
   },
   {
@@ -5624,40 +5358,6 @@
    "topics": [],
    "sources": [
     "ntcam",
-    "moc"
-   ]
-  },
-  {
-   "id": "afddaac188",
-   "title": "流光藝境",
-   "venue": "松山文創園區 1號倉庫",
-   "address": "臺北市信義區光復南路133號",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.043723,
-   "lng": 121.560797,
-   "geo_precision": "venue",
-   "start": "2027-01-30",
-   "end": "2027-04-18",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2112542232877936641",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "松山文創園區",
-    "松菸",
-    "松山菸廠"
-   ],
-   "topics": [],
-   "sources": [
     "moc"
    ]
   },
@@ -5793,8 +5493,7 @@
    ],
    "topics": [],
    "sources": [
-    "ibon",
-    "moc"
+    "ibon"
    ]
   },
   {
@@ -6152,15 +5851,14 @@
    "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/37600",
    "ticket_url": "https://tour.ibon.com.tw/event/639a87c55791ae161448c23d",
    "image": "https://tour.ibon.com.tw/allticket-prod/media/e0ad4bd9-b773-49fc-a82b-a6f4fac996dc.jpg",
-   "organizer": "文化部",
+   "organizer": "",
    "description": "",
    "keywords": [
     "臺北流行音樂中心"
    ],
    "topics": [],
    "sources": [
-    "ibon",
-    "moc"
+    "ibon"
    ]
   },
   {
