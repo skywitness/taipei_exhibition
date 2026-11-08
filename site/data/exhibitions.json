@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-02T06:05:55+08:00",
+ "updated_at": "2026-11-08T21:55:05+08:00",
  "window": {
-  "from": "2026-11-02",
-  "to": "2027-03-02"
+  "from": "2026-11-08",
+  "to": "2027-03-08"
  },
  "sources": [
   {
@@ -17,14 +17,14 @@
    "name": "國立臺灣科學教育館",
    "url": "https://www.ntsec.gov.tw/",
    "ok": true,
-   "count": 7
+   "count": 9
   },
   {
    "id": "huashan",
    "name": "華山1914文化創意產業園區",
    "url": "https://www.huashan1914.com/",
    "ok": true,
-   "count": 9
+   "count": 15
   },
   {
    "id": "ntcam",
@@ -45,7 +45,7 @@
    "name": "基隆美術館",
    "url": "https://kmoa.klcg.gov.tw/",
    "ok": true,
-   "count": 6
+   "count": 5
   },
   {
    "id": "nmmst",
@@ -58,30 +58,30 @@
    "id": "skm",
    "name": "新光三越",
    "url": "https://www.skm.com.tw/",
-   "ok": true,
-   "count": 2
+   "ok": false,
+   "count": 1,
+   "error": "GET https://www.skm.com.tw/page_list/0/New?category_id=9&page=1 failed: HTTP Error 403: Forbidden"
   },
   {
    "id": "culture_express",
    "name": "臺北市文化局 臺北文化快遞",
    "url": "https://cultureexpress.taipei/",
    "ok": true,
-   "count": 65
+   "count": 64
   },
   {
    "id": "ntpc_events",
    "name": "新北市政府 近期活動",
    "url": "https://data.ntpc.gov.tw/datasets/029e3fc2-1927-4534-8702-da7323be969b",
    "ok": true,
-   "count": 11
+   "count": 12
   },
   {
    "id": "ibon",
    "name": "ibon售票 展覽",
    "url": "https://ticket.ibon.com.tw/",
-   "ok": false,
-   "count": 13,
-   "error": "POST https://ticket.ibon.com.tw/api/Result/GetResultData failed: HTTP Error 403: Forbidden"
+   "ok": true,
+   "count": 20
   },
   {
    "id": "accupass",
@@ -95,235 +95,15 @@
    "name": "文化部文化資料開放服務網",
    "url": "https://cloud.culture.tw/",
    "ok": true,
-   "count": 61
+   "count": 59
   }
  ],
- "count": 178,
+ "count": 186,
  "exhibitions": [
   {
-   "id": "e262cbfb8c",
-   "title": "「虛空之境」展覽-領土",
-   "venue": "國家攝影文化中心",
-   "address": "臺北市中正區忠孝西路一段70號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.046709,
-   "lng": 121.514352,
-   "geo_precision": "venue",
-   "start": "2026-06-24",
-   "end": "2026-11-02",
-   "price": {
-    "text": "免費（非售票活動）",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=6973eb1626b32454e437c40d",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "國家攝影文化中心",
-   "description": "關於現代性的理想，不論是在法國或臺灣，都正因受到氣候變遷的猛烈衝擊而逐漸崩解。過去 人類相信資源無限、發展永恆，可以馴服並主宰大自然，但這種想法如今已不再成立。我們站在這 個逐漸瓦解的現代世界邊緣，試圖尋找新的平衡。這正是攝影家們本次所講述的故事。 「虛空畫」（vanités）原本是一種哲學與道德的提醒，警示人們勿過…",
-   "keywords": [
-    "國家攝影文化中心",
-    "攝影文化中心"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
-   "id": "6da11f2574",
-   "title": "2026 ART TAIPEI 異雲書屋十週年特展：桃花源記",
-   "venue": "台北世貿一館",
-   "address": "臺北市信義區",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.034038,
-   "lng": 121.562355,
-   "geo_precision": "venue",
-   "start": "2026-10-30",
-   "end": "2026-11-02",
-   "price": {
-    "text": "NT$450、600 (accupass)",
-    "free": false,
-    "min": 450,
-    "max": 450,
-    "tickets": [
-     {
-      "name": "票價",
-      "amount": 450
-     }
-    ]
-   },
-   "url": "https://www.yiyun-art.com/exhibition/2026-12",
-   "ticket_url": "https://www.accupass.com/event/2607080649073395119800",
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB012EehCg3U435trr%2bfgrTM73t%2b8NCc%2f1duLe0XquGGY0RW6NMGyAjCcP7tgakUOuj0sUXQCLpaSfPnwo1Lk19PC4%3d",
-   "organizer": "異雲書屋",
-   "description": "2026 異雲書屋 適逢成立十週年，於 台北國際藝術博覽會 重磅推出紀念特展「桃花源記」。此次展出畫廊十年來重要合作的15位藝術家，呈現三大軸線：以溥心畬、余承堯、陳其寬連結戰後華人近現代水墨藝術的面貌；藉由臺靜農、井上有一、須田剋太、卜茲、劉欣勾勒東亞書法藝術的多元對話；再以于彭、吳士偉、常陵、沐冉、顏妤庭展現台灣…",
-   "keywords": [
-    "臺北世界貿易中心展覽一館",
-    "世貿一館",
-    "世貿展覽一館",
-    "臺北世貿中心",
-    "臺北世界貿易中心"
-   ],
-   "topics": [],
-   "sources": [
-    "culture_express"
-   ]
-  },
-  {
-   "id": "27017cf574",
-   "title": "ART TAIPEI 2026 台北國際藝術博覽會",
-   "venue": "台北市轄區、台北世貿一館 (臺北市信義路五段五號)",
-   "address": "臺北市信義區",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.034038,
-   "lng": 121.562355,
-   "geo_precision": "venue",
-   "start": "2026-10-30",
-   "end": "2026-11-02",
-   "price": {
-    "text": "一般票600、優待票450、團體票(20人以上)450/1 張",
-    "free": false,
-    "min": 450,
-    "max": 600,
-    "tickets": [
-     {
-      "name": "一般票",
-      "amount": 600
-     },
-     {
-      "name": "優待票",
-      "amount": 450
-     }
-    ]
-   },
-   "url": "https://2026.art-taipei.com/taipei/tw/",
-   "ticket_url": "https://2026.art-taipei.com/taipei/tw/ticketing/",
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB017Qd%2bIJ8AdZWlOwid3vZ%2b0FjUUzlbkTqR%2b7gU8gA2mIbm2XyNMXefL7cmDlkQncU0B%2bzpBlVVPhysN1hUZykB0I%3d",
-   "organizer": "社團法人中華民國畫廊協會",
-   "description": "邁入第 33 屆的 ART TAIPEI 台北國際藝術博覽會，不僅承載三十餘年的歷史傳承，也象徵著品牌持續蛻變的決心。2026 年，我們將以「科技新局」為核心理念，導入AI導覽、AI多語言協助，並與COMPUTEX合作，展現台北藝博在國際舞台上的新氣象，深化台灣藝術市場的科技價值，進一步推升國際影響力。",
-   "keywords": [
-    "臺北世界貿易中心展覽一館",
-    "世貿一館",
-    "世貿展覽一館",
-    "臺北世貿中心",
-    "臺北世界貿易中心"
-   ],
-   "topics": [],
-   "sources": [
-    "culture_express"
-   ]
-  },
-  {
-   "id": "cf463117a8",
-   "title": "A11 3F轉角藝術 | meow meow cry",
-   "venue": "新光三越台北信義新天地A11 3F",
-   "address": "臺北市信義區松壽路11號",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.03647,
-   "lng": 121.567272,
-   "geo_precision": "venue",
-   "start": "2026-09-18",
-   "end": "2026-11-03",
-   "price": {
-    "text": "免費入場",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://www.skm.com.tw/page/121/202609cornerartMeowmeowcry",
-   "ticket_url": null,
-   "image": "https://img.skmbuy.com.tw/App_Images/727/Page/2026/0918/4f9e65f4-2ceb-44b6-bd73-b3f6b7b7bdb8.jpg.webp",
-   "organizer": "新光三越",
-   "description": "《meowmeowcry喵喵哭哭》是一場獻給所有敏感心靈的沉浸式情緒展覽。 我們邀請每一位曾被悲傷淹沒的人，來到這裡卸下防備，重新看待內心的起伏與脆弱。",
-   "keywords": [
-    "新光三越台北信義新天地A11",
-    "信義新天地A11",
-    "新天地A11"
-   ],
-   "topics": [
-    "mall"
-   ],
-   "sources": [
-    "skm"
-   ]
-  },
-  {
-   "id": "79ceb7a8bc",
-   "title": "THE BALVENIE × DANIEL ARSHAM 百富1931匠藝源起特展",
-   "venue": "華山1914文化創意產業園區 西5-1館 壓縮兼包裝工場、西5-2館 壓縮兼包裝工場",
-   "address": "臺北市中正區八德路一段1號",
-   "city": "臺北市",
-   "district": "中正區",
-   "lat": 25.044609,
-   "lng": 121.529183,
-   "geo_precision": "venue",
-   "start": "2026-10-24",
-   "end": "2026-11-04",
-   "price": {
-    "text": "未提供票價資訊",
-    "free": null,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.huashan1914.com/exhibition/THE%20BALVENIE%20%C3%97%20DANIEL%20ARSHAM%20%E7%99%BE%E5%AF%8C1931%E5%8C%A0%E8%97%9D%E6%BA%90%E8%B5%B7%E7%89%B9%E5%B1%95",
-   "ticket_url": null,
-   "image": "https://files.huashan1914.com/1920x1080px_BALVENIE_SCULPTURE-COLLECTION_123269%20%E6%8B%B7%E8%B2%9D.jpg",
-   "organizer": "華山1914文化創意產業園區",
-   "description": "THE BALVENIE × DANIEL ARSHAM 百富1931匠藝源起特展 以一款歷經 88 年熟成的非凡威士忌為核心，回望百富一路走來的匠藝精神。 「百富匠藝源起」攜手當代藝術家 Daniel Arsham 與首席調酒師 Kelsey McKechnie，透過「五大工藝」的視角，共同探尋百富的本質精髓。 這…",
-   "keywords": [
-    "華山1914文化創意產業園區",
-    "華山1914",
-    "華山文創園區",
-    "華山文化園區"
-   ],
-   "topics": [],
-   "sources": [
-    "huashan"
-   ]
-  },
-  {
-   "id": "c34bd20e72",
-   "title": "【筆記#15】黃楷馨個展",
-   "venue": "99°藝術中心",
-   "address": "臺北市北投區",
-   "city": "臺北市",
-   "district": "北投區",
-   "lat": 25.11635,
-   "lng": 121.50549,
-   "geo_precision": "source",
-   "start": "2026-10-03",
-   "end": "2026-11-07",
-   "price": {
-    "text": "免費參觀",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://99dac.com/exhibition-detail.php?id=255",
-   "ticket_url": null,
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB011OoA4XQSjKKR1i85kFYTO5coKH742Qexaz15Ce3X%2ffjBRlHrYnKyqRDx%2fF4oriCXTuO47tb2ywgwZY9T3mxiOw%3d",
-   "organizer": "99˚藝術中心",
-   "description": "「筆記#15」是藝術家黃楷馨的第15次個展。藝術家的許多作品，最初皆源自速寫簿（sketchbook）裡的「筆記」。對她而言，「筆記」不只是創作的起點，也是讓創作、展覽與生活持續共存的一種方式。因此，在沒有特殊情況下，藝術家選擇直接以「筆記」為個展名稱，並以編號延續。",
-   "keywords": [],
-   "topics": [],
-   "sources": [
-    "culture_express"
-   ]
-  },
-  {
-   "id": "7cdaf212f7",
-   "title": "當 AI 開始思考與審美，藝術家的角色會否有所不同？ ：華山1914文創園區協力國際團隊推出《藝術家正在輸入⋯⋯》限時免費，加入這場互動對話",
-   "venue": "華山1914文化創意產業園區 千層野台",
+   "id": "7ebffe6a4c",
+   "title": "集品生活遊食購-經濟部商業發展署年度成果發表暨展售活動",
+   "venue": "華山1914文化創意產業園區 東2A館、東2B館、東2C館、東2D館",
    "address": "臺北市中正區八德路一段1號",
    "city": "臺北市",
    "district": "中正區",
@@ -331,7 +111,7 @@
    "lng": 121.529183,
    "geo_precision": "venue",
    "start": "2026-11-06",
-   "end": "2026-11-07",
+   "end": "2026-11-08",
    "price": {
     "text": "未提供票價資訊",
     "free": null,
@@ -339,28 +119,26 @@
     "max": null,
     "tickets": []
    },
-   "url": "https://www.huashan1914.com/exhibition/%E8%97%9D%E8%A1%93%E5%AE%B6%E6%AD%A3%E5%9C%A8%E8%BC%B8%E5%85%A5%E2%8B%AF",
-   "ticket_url": "https://www.accupass.com/event/2610100639581868902242",
-   "image": "https://files.huashan1914.com/banner_encased_encounter_1600x700.jpg",
-   "organizer": "社團法人台灣美學產值協會",
-   "description": "當人工智慧開始自主創作、判斷，並在龐大社群的參與下形塑出獨特的審美品味，我們認知中的「藝術家」角色究竟會如何轉變？ 華山 1914 創意園區很榮幸於擔任本活動的協辦角色，結合園區的戶外數位櫥窗與對話空間，公開播映 AI 藝術家 Botto 的生成作品（戶外播映自 2026 年 11 月 2 日至 2027 年 1 月…",
+   "url": "https://www.huashan1914.com/exhibition/%E9%9B%86%E5%93%81%E7%94%9F%E6%B4%BB%E9%81%8A%E9%A3%9F%E8%B3%BC-%E5%95%86%E6%A5%AD%E7%99%BC%E5%B1%95%E7%BD%B2%E5%B9%B4%E5%BA%A6%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9A%A8%E5%B1%95%E5%94%AE%E6%B4%BB%E5%8B%95",
+   "ticket_url": null,
+   "image": "https://files.huashan1914.com/%E8%A1%8C%E9%8A%B7%E5%88%8A%E7%99%BB%E5%BB%A3%E5%91%8A_%E5%AE%98%E7%B6%B2banner-1600x700_0.jpg",
+   "organizer": "經濟部商業發展署",
+   "description": "探索商模新未來，享受質感好生活！ 115年度經濟部商業發展署年度成果發表暨展售活動 準備好迎接一場充滿創新與活力的商業盛會了嗎？「115年度經濟部商業發展署年度成果發表暨展售活動」將於11月6日至11月8日在華山1914文創園區盛大登場！本活動集結全國最具潛力的商業服務業品牌，帶您一次看見臺灣商業發展的豐碩成果與未來…",
    "keywords": [
     "華山1914文化創意產業園區",
     "華山1914",
     "華山文創園區",
     "華山文化園區"
    ],
-   "topics": [
-    "science"
-   ],
+   "topics": [],
    "sources": [
     "huashan"
    ]
   },
   {
-   "id": "89a0e3083d",
-   "title": "2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
-   "venue": "華山1914文化創意產業園區 西5-1館 壓縮兼包裝工場、西2館 第三乾餾場、西1館 第二乾餾場",
+   "id": "2edacb4d32",
+   "title": "《勝利女神：妮姬》4週年特展",
+   "venue": "華山1914文化創意產業園區 中7A館 維修工場",
    "address": "臺北市中正區八德路一段1號",
    "city": "臺北市",
    "district": "中正區",
@@ -368,7 +146,7 @@
    "lng": 121.529183,
    "geo_precision": "venue",
    "start": "2026-11-07",
-   "end": "2026-11-07",
+   "end": "2026-11-08",
    "price": {
     "text": "未提供票價資訊",
     "free": null,
@@ -376,11 +154,11 @@
     "max": null,
     "tickets": []
    },
-   "url": "https://www.huashan1914.com/exhibition/2026%E5%B0%8F%E9%BB%83%E5%B8%BD%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E7%AB%A5%E6%A8%82%E6%9C%83%E3%80%8A%E6%88%90%E7%82%BA%E5%85%A8%E5%AE%B6%E7%9A%84%E5%AE%89%E5%85%A8%E5%B0%8F%E8%8B%B1%E9%9B%84%E3%80%8B",
+   "url": "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B4%E9%80%B1%E5%B9%B4%E7%89%B9%E5%B1%95",
    "ticket_url": null,
-   "image": "https://files.huashan1914.com/%E8%8F%AF%E5%B1%B1%E9%9C%80%E6%B1%82_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.png",
-   "organizer": "財團法人靖娟兒童安全文教基金會、全家便利商店股份有限公司；贊助單位：福特六和汽車股份有限公司、巧兒宜國際股份有限公司、遠通電收股份有限公司、優步福爾摩沙股份有限公司、台灣米其林輪胎股份有限公司",
-   "description": "2026小黃帽交通安全童樂會《成為全家的安全小英雄》 全台最歡樂的親子盛典｜免費參加 活動地點｜華山1914文化創意產業園區-紅磚六合院西1館+西2館+西5-1館 （台北市中正區八德路一段1號，近北平東路與杭州北路交叉口） 活動時間｜11/07(六) 11:00-16:30 ※西2館+西5-1館 11:00開放、西1…",
+   "image": "https://files.huashan1914.com/%E5%AE%98%E7%B6%B2banner%E8%88%87%E6%B4%BB%E5%8B%95%E5%85%A7%E9%A0%81%E4%B8%BB%E5%9C%96.jpeg",
+   "organizer": "熱酷科技有限公司",
+   "description": "《勝利女神：妮姬》#四週年特展 即將登場！ 這次，就換指揮官親自到現場執行任務吧！ 展場還準備了四週年限定體驗與好禮， 更多內容等著指揮官來解鎖……👀🔒 📍展覽資訊 日期：2026年11月7日（六）～11月8日（日） 時間：09:00～17:00（每日最後入場時間16:30） 📍展覽地點 華山1914文化創意產業園區…",
    "keywords": [
     "華山1914文化創意產業園區",
     "華山1914",
@@ -393,229 +171,16 @@
    ]
   },
   {
-   "id": "e69d183a20",
-   "title": "《龍藏經》：皇權・信仰・藝術的盛世交響 (I) (II)",
-   "venue": "國立故宮博物院",
-   "address": "臺北市士林區外雙溪至善路2段221號",
+   "id": "85253969c8",
+   "title": "我的e生活_第13屆小王子愛塗鴉繪畫比賽展覽",
+   "venue": "華山1914文化創意產業園區 中4A館 紅酒作業場",
+   "address": "臺北市中正區八德路一段1號",
    "city": "臺北市",
-   "district": "士林區",
-   "lat": 25.101574,
-   "lng": 121.548862,
-   "geo_precision": "venue",
-   "start": "2026-05-09",
-   "end": "2026-11-08",
-   "price": {
-    "text": "優惠參觀券+150;團體參觀券+320;普通參觀券+350;至善園+20",
-    "free": false,
-    "min": 20,
-    "max": 350,
-    "tickets": [
-     {
-      "name": "優惠參觀券",
-      "amount": 150
-     },
-     {
-      "name": "團體參觀券",
-      "amount": 320
-     },
-     {
-      "name": "普通參觀券",
-      "amount": 350
-     },
-     {
-      "name": "至善園",
-      "amount": 20
-     }
-    ]
-   },
-   "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=6a28640c26b3243414ccd042",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "國立故宮博物院",
-   "description": "康熙六年（1667），在太皇太后孝莊文皇后的慈諭與方甫親政的康熙皇帝推動下，清宮啟動一項規模浩大的佛教文化工程——修造泥金寫本藏文《甘珠爾》（bka’ ’gyur），此即世人所熟知的《龍藏經》。這部鉅作耗費鉅資，動用無數頂尖藝匠與高僧參與，歷時兩年方成，旨在祈求皇圖永固、帝道遐昌，並以此鞏固當時滿蒙間的政治與宗教聯盟…",
-   "keywords": [
-    "國立故宮博物院",
-    "故宮博物院",
-    "故宮北部院區"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
-   "id": "47a846cb7a",
-   "title": "MoCA Video「叢靈開始—黃怡嘉個展」",
-   "venue": "台北當代藝術館廣場電視牆",
-   "address": "臺北市大同區",
-   "city": "臺北市",
-   "district": "大同區",
-   "lat": 25.050781,
-   "lng": 121.518965,
-   "geo_precision": "venue",
-   "start": "2026-09-12",
-   "end": "2026-11-08",
-   "price": {
-    "text": "免費參觀",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://mocatpe.tw/ca04A2URz",
-   "ticket_url": null,
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB01zJpomMmtmERSdrL1SqpONqkRkSGNRPS2O8h8LWCY%2fAyjvcUVOzLdcyn0%2bGHkl%2bNFw%3d%3d",
-   "organizer": "台北當代藝術館",
-   "description": "本次展覽不只是藝術家黃怡嘉對於生命課題的提問，更映照出每個人或多或少都經歷過的徬徨。這是一齣以喜劇包裹的煽情悲劇，囊括了所有，在笑聲與失控之間的表演，提醒著我們：那些無法挽回的事實，也許從來不存在正確答案。在荒謬與幽默之中，包裹著孤獨、焦慮、失落與希望。我們笑著觀看一場看似荒唐的冒險，卻也在其中看見自己如何一次次跌倒…",
-   "keywords": [
-    "台北當代藝術館",
-    "當代藝術館"
-   ],
-   "topics": [],
-   "sources": [
-    "culture_express"
-   ]
-  },
-  {
-   "id": "aef7cc8976",
-   "title": "《AHA 原來如此！教科書設計展》",
-   "venue": "台北松山文創園區・台灣設計館 01 展間",
-   "address": "台北市信義區光復南路133號",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.043723,
-   "lng": 121.560797,
-   "geo_precision": "venue",
-   "start": "2026-10-14",
-   "end": "2026-11-08",
-   "price": {
-    "text": "免費（非售票活動）",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=6ad067f2eb43ead9f13aebc8",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "教育部",
-   "description": "",
-   "keywords": [
-    "松山文創園區",
-    "松菸",
-    "松山菸廠"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
-   "id": "7b73018c14",
-   "title": "《山澗．明天．海平面》",
-   "venue": "基隆美術館M0203展覽室",
-   "address": "基隆市中正區信一路181號",
-   "city": "基隆市",
    "district": "中正區",
-   "lat": 25.13299,
-   "lng": 121.744646,
+   "lat": 25.044609,
+   "lng": 121.529183,
    "geo_precision": "venue",
-   "start": "2026-10-16",
-   "end": "2026-11-08",
-   "price": {
-    "text": "免費入場",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://kmoa.klcg.gov.tw/News_Photo_Content.aspx?n=7484&s=18688",
-   "ticket_url": null,
-   "image": "https://klctb-ws.klcg.gov.tw/001/Upload/449/relpic/12489/18688/28051923-0eff-4606-8367-0642f5f136a5@710x470.png",
-   "organizer": "基隆美術館",
-   "description": "藝術的實踐，往往是一場從幽谷走向寬闊天地的精神朝聖。吳上瑋個展《山澗．明天．海平面》，將自然景觀轉譯為內在心靈地圖的具象顯影。 本展巧妙扣合了繪畫構成的幾何秩序：「山澗」是出世的靈感泉源，化作微觀的「點」，成為感知秩序的起點；「明天」將「日」與「月」的交替，化為視覺語彙，在畫布上拉出具備時間溫度的「線」性軌跡；「海平…",
-   "keywords": [
-    "基隆市文化中心",
-    "基隆文化中心",
-    "基隆美術館"
-   ],
-   "topics": [],
-   "sources": [
-    "kmoa"
-   ]
-  },
-  {
-   "id": "2000f8b59b",
-   "title": "物．我｜林宇軒個展 The Self in Things：Lin Yu Shuan Solo Exhibition",
-   "venue": "琂樂堂藝文空間",
-   "address": "臺北市大同區",
-   "city": "臺北市",
-   "district": "大同區",
-   "lat": 25.05389,
-   "lng": 121.50771,
-   "geo_precision": "source",
-   "start": "2026-10-16",
-   "end": "2026-11-08",
-   "price": {
-    "text": "免費參觀",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://www.instagram.com/joyfulart_gallery/",
-   "ticket_url": null,
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB017wdWbgF5XP77mRwnImM4pcoom9o%2fFjh9tV3pZvcqUDBtvM0%2fCGBh4dQlU%2fDsEyfsD%2bsFNHs3FhW53EMcj7LfzI%3d",
-   "organizer": "琂樂堂藝文空間",
-   "description": "林宇軒將於琂樂堂藝文空間推出個展「物．我」。展覽聚焦於藝術家對案頭奇石、古器與日常物件的凝視，以細緻筆墨記錄物體的肌理、光影與歲月痕跡，將對外物的觀察轉化為對內心的審視，尋得物我之間的寧靜共鳴。 作品結合傳統題跋，圖像捕捉視覺型態，文字記錄無形心念，圖文相映，呈現「觀物悟我」的精神歷程。 展期自2026年10月16日…",
-   "keywords": [],
-   "topics": [],
-   "sources": [
-    "culture_express",
-    "moc"
-   ]
-  },
-  {
-   "id": "1a6a186b39",
-   "title": "《盛夏．飛越》 海南寫生采風創作展",
-   "venue": "隱藝術",
-   "address": "桃園市大園區",
-   "city": "桃園市",
-   "district": "大園區",
-   "lat": 25.02185,
-   "lng": 121.21974,
-   "geo_precision": "source",
-   "start": "2026-10-21",
-   "end": "2026-11-08",
-   "price": {
-    "text": "免費參觀",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://www.yinartspace.org/1",
-   "ticket_url": null,
-   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB01zdiyVW%2bke3pdoA54kQzvha1Kan9vLF78SCBuj76Jt%2bg7mJEW4cjWqiZd9oloFXRO%2bcT7lerRqbPRGgyUVg4clk%3d",
-   "organizer": "隱藝空間工作室",
-   "description": "陽光、海風、色彩與片刻的感受 在記憶裡慢慢沉澱 於秋日裡化作一幅幅動人的詩篇 旅途中所遇見的風景 不只是眼前的風景 更有溫度與光影 以及那些當下未曾言明的感受 在畫布上，在色彩之間 也在每一次落筆與凝望之中 盛夏之後，在秋日裡 重新看見海南的那一個夏天",
-   "keywords": [],
-   "topics": [],
-   "sources": [
-    "culture_express"
-   ]
-  },
-  {
-   "id": "8e67a0a6c4",
-   "title": "Hearts2Hearts The 2nd Mini Album [Lemon Tang] POP-UP in TAIPEI",
-   "venue": "統一時代百貨台北店",
-   "address": "臺北市信義區忠孝東路五段8號B2",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.040584,
-   "lng": 121.565483,
-   "geo_precision": "venue",
-   "start": "2026-10-24",
+   "start": "2026-11-07",
    "end": "2026-11-08",
    "price": {
     "text": "未提供票價資訊",
@@ -624,20 +189,20 @@
     "max": null,
     "tickets": []
    },
-   "url": "https://www.accupass.com/event/2609230322037570943000",
+   "url": "https://www.huashan1914.com/exhibition/%E6%88%91%E7%9A%84e%E7%94%9F%E6%B4%BB_%E7%AC%AC13%E5%B1%86%E5%B0%8F%E7%8E%8B%E5%AD%90%E6%84%9B%E5%A1%97%E9%B4%89%E7%B9%AA%E7%95%AB%E6%AF%94%E8%B3%BD%E5%B1%95%E8%A6%BD",
    "ticket_url": null,
-   "image": "https://static.accupass.com/eventbanner/2610021114291005339755_P520x260.jpg",
-   "organizer": "Hearts2Hearts Lemon Tang POP UP in Taipei",
-   "description": "Hearts2Hearts ‘Lemon Tang – The 2nd Mini Album’ POP-UP IN TAIPEI 將於 2026 年 10 月 24 日至 11 月 8 日，在統一時代百貨台北店 B2 特賣場期間限定登場。活動現場規劃視覺形象、社群打卡、商品販售、結帳及互動體驗等五大區域，結合拍照、遊…",
+   "image": "https://files.huashan1914.com/%E8%8F%AF%E5%B1%B1%E5%AE%98%E7%B6%B2%E5%AE%A3%E5%82%B3%E5%9C%96.png",
+   "organizer": "味王股份有限公司",
+   "description": "科技，正在悄悄改變我們生活的每一天。 從線上學習、影音娛樂、智慧交通，到與家人朋友分享生活，數位科技早已成為日常的一部分。而在孩子的眼中，科技又會是什麼模樣？ 第13屆「小王子愛塗鴉繪畫比賽」以「我的e生活」為主題，邀請大小朋友從自己的生活出發，用畫筆記錄與科技相遇的每個時刻，也大膽想像屬於未來的生活風景。 今年徵件…",
    "keywords": [
-    "統一時代百貨台北店",
-    "統一時代"
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
    ],
-   "topics": [
-    "mall"
-   ],
+   "topics": [],
    "sources": [
-    "accupass"
+    "huashan"
    ]
   },
   {
@@ -676,6 +241,42 @@
    ],
    "sources": [
     "accupass"
+   ]
+  },
+  {
+   "id": "7f135dd4a3",
+   "title": "2026玩轉文具暨手作創意展",
+   "venue": "台北世貿一館",
+   "address": "台北市信義區信義路五段5號",
+   "city": "臺北市",
+   "district": "信義區",
+   "lat": 25.034038,
+   "lng": 121.562355,
+   "geo_precision": "venue",
+   "start": "2026-11-06",
+   "end": "2026-11-09",
+   "price": {
+    "text": "NT$100",
+    "free": false,
+    "min": 100,
+    "max": 100,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40039",
+   "ticket_url": "https://tour.ibon.com.tw/event/6ad96fc29d1cd370785d9aa4",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/6e353c8b-8c3d-494e-b397-aaa9ec0e225a.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "臺北世界貿易中心展覽一館",
+    "世貿一館",
+    "世貿展覽一館",
+    "臺北世貿中心",
+    "臺北世界貿易中心"
+   ],
+   "topics": [],
+   "sources": [
+    "ibon"
    ]
   },
   {
@@ -1205,6 +806,41 @@
    ]
   },
   {
+   "id": "669b80f696",
+   "title": "公益同行 原社共好",
+   "venue": "華山1914文化創意產業園區 金八廣場、華山劇場、忠孝三角、中三前廣場、樹前草地",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%E5%85%AC%E7%9B%8A%E5%90%8C%E8%A1%8C%20%E5%8E%9F%E7%A4%BE%E5%85%B1%E5%A5%BD",
+   "ticket_url": null,
+   "image": "https://files.huashan1914.com/111403_1.jpg",
+   "organizer": "原住民族委員會",
+   "description": "【公益同行 原社共好】原住民族合作社的精彩成果，即將於11月14日至15日齊聚臺北華山！✨ 「公益同行・原社共好」115年公益彩券回饋金補助計畫暨績優原住民族合作社頒獎典禮及聯合特展，從在地農特產品、特色美食，到文創工藝，每一份成果都承載著原住民族合作社的努力與堅持，邀請大家一起走進聯合特展，逛市集、聽音樂，感受滿滿…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
+   ]
+  },
+  {
    "id": "3f44ebfb36",
    "title": "陰性空間",
    "venue": "安卓藝術",
@@ -1263,6 +899,36 @@
    "topics": [],
    "sources": [
     "culture_express"
+   ]
+  },
+  {
+   "id": "d6f7530ff0",
+   "title": "【淡水生活節】竹圍縫合術—街頭移動展覽車",
+   "venue": "竹圍市區",
+   "address": "新北市淡水區竹圍",
+   "city": "新北市",
+   "district": "淡水區",
+   "lat": 25.136974,
+   "lng": 121.459495,
+   "geo_precision": "venue",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.accupass.com/event/2610280750521057096744",
+   "ticket_url": null,
+   "image": "https://static.accupass.com/eventbanner/2610281106517306718150_P520x260.jpg",
+   "organizer": "淡水好生活",
+   "description": "本展覽為淡江大學教育與未來設計學系課程學生策劃演出，共分5組5車展演行動方案。 以竹圍在地生活、公共空間、歷史文化及自然生態為核心，期望藉由多元參與及在地實踐，促進社區互動、深化地方認同，打造兼具生活、文化、休閒與生態價值的永續社區。",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "accupass"
    ]
   },
   {
@@ -1439,7 +1105,7 @@
    "lat": 25.009427,
    "lng": 121.45952,
    "geo_precision": "venue",
-   "start": "2026-11-03",
+   "start": "2026-11-09",
    "end": "2026-11-22",
    "price": {
     "text": "需購票，請見官網",
@@ -1471,7 +1137,7 @@
    "lat": 25.009427,
    "lng": 121.45952,
    "geo_precision": "venue",
-   "start": "2026-11-03",
+   "start": "2026-11-09",
    "end": "2026-11-22",
    "price": {
     "text": "需購票，請見官網",
@@ -1503,7 +1169,7 @@
    "lat": 25.009427,
    "lng": 121.45952,
    "geo_precision": "venue",
-   "start": "2026-11-03",
+   "start": "2026-11-09",
    "end": "2026-11-22",
    "price": {
     "text": "需購票，請見官網",
@@ -1700,6 +1366,41 @@
    ]
   },
   {
+   "id": "68afc1ef5d",
+   "title": "萬海慈善 讓愛閃耀社福市集",
+   "venue": "華山1914文化創意產業園區 中7B館 維修工場",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%E8%90%AC%E6%B5%B7%E6%85%88%E5%96%84%20%E8%AE%93%E6%84%9B%E9%96%83%E8%80%80%E7%A4%BE%E7%A6%8F%E5%B8%82%E9%9B%86",
+   "ticket_url": null,
+   "image": "https://files.huashan1914.com/%E8%90%AC%E6%B5%B7%E6%85%88%E5%96%84_1920x1080.jpg",
+   "organizer": "財團法人萬海航運社會福利慈善事業基金會",
+   "description": "萬海慈善 讓愛閃耀社福市集 每一份小小的堅持都在這裡發光 每一份小小的支持成為他們的力量 支持中小型社福單位，讓每份用心，都有被看見的機會 來自全臺各地的社福單位，帶著各自的故事與努力，在秋天的臺北相聚。有用心製作的手工好物，有充滿巧思的特色商品，也有來自土地的農產與美好滋味 這場市集，由去年經萬海慈善邀請專業評審評…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
+   ]
+  },
+  {
    "id": "018aa87529",
    "title": "行有所愛｜如孩子般自由《孩子的書屋》27週年年會音樂會",
    "venue": "華山1914文化創意產業園區 華山劇場、中4A館 紅酒作業場",
@@ -1780,10 +1481,10 @@
    "start": "2026-09-12",
    "end": "2026-11-23",
    "price": {
-    "text": "NT$350–450",
+    "text": "NT$350–675",
     "free": false,
     "min": 350,
-    "max": 450,
+    "max": 675,
     "tickets": []
    },
    "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39876",
@@ -1821,6 +1522,36 @@
    "image": "https://www.ntpc.gov.tw/uploaddowndoc?file=news/202609240929461.jpg&filedisplay=%E5%8D%97%E9%99%BD%E8%A1%97%E8%87%B3%E4%B8%AD%E8%88%88%E8%B7%AF%E4%BA%A4%E7%B6%AD%E6%94%B9%E9%81%93%E5%8B%95%E7%B7%9A.jpg&flag=pic",
    "organizer": "新北市立圖書館",
    "description": "11月展覽 :《悠遊自然-2026林顯宗師生聯展》 時間：11/04(三)-11/24(二)8:30-17:00地點：淡水分館藝文展覽室（淡水區文化路65號）電話：02-2622-4664轉221簡介：以自然為師，油畫大師林顯宗將淡水山海化為創作靈魂。本展集結師生50件精選作品，涵蓋人體速寫、淡水風光與各地寫生創作，…",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "ntpc_events"
+   ]
+  },
+  {
+   "id": "31a797dcbb",
+   "title": "「新北市彩韻軒藝文學會十一週年筆逸彩韻書畫聯展」",
+   "venue": "新北市土城區公所金城藝廊",
+   "address": "新北市土城區金城路1段101號3樓",
+   "city": "新北市",
+   "district": "土城區",
+   "lat": 24.9722,
+   "lng": 121.4433,
+   "geo_precision": "district",
+   "start": "2026-10-22",
+   "end": "2026-11-25",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.ntpc.gov.tw/ch/home.jsp?id=31&dataserno=2982774788475c4215448d227caeedc9",
+   "ticket_url": null,
+   "image": "https://www.ntpc.gov.tw/uploaddowndoc?file=news/202611040821210.jpg&filedisplay=115%E5%9C%9F%E5%9F%8E%E5%8D%80%E5%85%AC%E6%89%80%E7%9F%A5%E8%AD%98%E5%85%85%E9%9B%BB%E7%AB%99A4DM.jpg&flag=pic",
+   "organizer": "土城區公所",
+   "description": "覽期間：115年10月22日至11月25日開 幕 式：115年10月22日(四) 上午10時開放時間：週一至週五09：00-17：0010/26國定假日不開放參觀展覽地點：新北市土城區公所金城藝廊（新北市土城區金城路1段101號3樓）歡迎廣邀親朋好友踴躍蒞臨參觀新北市土城區公所 社會人文課 李小姐電話:2270-33…",
    "keywords": [],
    "topics": [],
    "sources": [
@@ -2084,6 +1815,41 @@
    ]
   },
   {
+   "id": "51460d0022",
+   "title": "2026國際登山趨勢論壇暨山林生活沉浸式體驗展",
+   "venue": "國立臺灣科學教育館",
+   "address": "臺北市士林區士商路189號",
+   "city": "臺北市",
+   "district": "士林區",
+   "lat": 25.096127,
+   "lng": 121.516704,
+   "geo_precision": "venue",
+   "start": "2026-10-31",
+   "end": "2026-11-29",
+   "price": {
+    "text": "需另行購票，請見購票頁面",
+    "free": false,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.ntsec.gov.tw/article/list.aspx?a=25",
+   "ticket_url": "https://expo.twmountain.com/",
+   "image": "https://www.ntsec.gov.tw/images/ArticleListPic/6181_2.png",
+   "organizer": "國立臺灣科學教育館",
+   "description": "展覽日期：115年10月31日至115年11月29日",
+   "keywords": [
+    "國立臺灣科學教育館",
+    "科教館"
+   ],
+   "topics": [
+    "science"
+   ],
+   "sources": [
+    "ntsec"
+   ]
+  },
+  {
    "id": "9ec7ee35e3",
    "title": "天空〜一期一会・愛之器〜張義明陶展",
    "venue": "孟焦畫坊",
@@ -2111,6 +1877,146 @@
    "topics": [],
    "sources": [
     "culture_express"
+   ]
+  },
+  {
+   "id": "32386cfba5",
+   "title": "小梅的奇幻冒險 : 尋回心意之書 Deer May",
+   "venue": "華山1914文化創意產業園區 東3A館",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%E5%B0%8F%E6%A2%85%E7%9A%84%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%20:%20%E5%B0%8B%E5%9B%9E%E5%BF%83%E6%84%8F%E4%B9%8B%E6%9B%B8%20Deer%20May",
+   "ticket_url": "https://www.klook.com/zh-TW/activity/184829-meis-fantastic-adventure-the-quest-for-the-book-of-heartfelt-wishes/",
+   "image": "https://files.huashan1914.com/%E5%85%89%E4%B9%8B%E5%A1%94%EF%BC%9A%E5%B0%8F%E6%A2%85%E7%9A%84%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA.png",
+   "organizer": "光之塔動畫事業有限公司",
+   "description": "全境式沉浸動畫互動劇場鉅獻｜《小梅的奇幻冒險：尋回心意之書》 由國際獲獎無數的知名動畫導演—紀柏舟親自操刀，率領曾打造國際視覺金獎的動畫團隊--光之塔動畫，精心打造全新沉浸式動畫互動劇場，夢幻登場！ 這是一場童話般的動畫盛宴! 故事與世界觀延伸自備受注目、即將登場的全新台灣兒童動畫IP—《小梅&穿穿》，導演專為全境式…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
+   ]
+  },
+  {
+   "id": "82742a9cb8",
+   "title": "星球樂園 PLANET PARK",
+   "venue": "華山1914文化創意產業園區 東3A館",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%20%E6%98%9F%E7%90%83%E6%A8%82%E5%9C%92%20PLANET%20PARK",
+   "ticket_url": "https://www.klook.com/zh-TW/activity/127363-planet-park-immersive-interactive-playground/",
+   "image": "https://files.huashan1914.com/Planet%20park1920x1080_1.jpg",
+   "organizer": "紅然 RYB STUDIO",
+   "description": "您是否曾經幻想過踏上遙遠的星球，體驗一場前所未有的時空旅行？ MAGiC BOX 魔術方塊數位故事館推出的原創節目《星球樂園》，將帶你穿越時空，探索一個擁有地球相同生物卻完全打破陸海空界限的神奇世界。全境式投影結合先進的互動體驗技術，讓你彷彿置身在異世界探索冒險，無論是大朋友小朋友，都將能在星球樂園中獲得無限的驚喜與…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
+   ]
+  },
+  {
+   "id": "73834e8481",
+   "title": "流浪蓋婭號 WANDERING GAIA",
+   "venue": "華山1914文化創意產業園區 東3A館",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%E6%B5%81%E6%B5%AA%E8%93%8B%E5%A9%AD%E8%99%9F%20%20%20WANDERING%20GAIA",
+   "ticket_url": "https://www.klook.com/zh-TW/activity/139452-wandering-gaia-immersive-interactive-show/",
+   "image": "https://files.huashan1914.com/1920x1080_3.jpg",
+   "organizer": "紅然 RYB STUDIO",
+   "description": "準備好搭乘太空船，展開一場充滿奇幻與驚喜的太空旅程了嗎？ 流浪蓋婭號將帶你造訪三個神秘星球，每顆星球都藏著未解的秘密與驚奇！透過全境式沉浸投影與先進的互動技術完美結合，您可以即時與環境和生物互動，探索星球的神祕之處。無論大朋友或小朋友，都能在《流浪蓋婭號》這場奇幻冒險中獲得滿滿的驚喜與感動！ ※票價資訊：全票NT$3…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
+   ]
+  },
+  {
+   "id": "87e78e1fa8",
+   "title": "牧神的午後 L’Après-midi d’un faune",
+   "venue": "華山1914文化創意產業園區 東3A館",
+   "address": "臺北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "price": {
+    "text": "未提供票價資訊",
+    "free": null,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.huashan1914.com/exhibition/%E7%89%A7%E7%A5%9E%E7%9A%84%E5%8D%88%E5%BE%8C%20L%E2%80%99Apr%C3%A8s-midi%20d%E2%80%99un%20faune",
+   "ticket_url": "https://www.klook.com/zh-TW/activity/175446-lapres-midi-dun-faune/?spm=Activity.SearchStart_SearchHistory_LIST&clickId=e85986e43d",
+   "image": "https://files.huashan1914.com/1920x1080%20%281%29.png",
+   "organizer": "紅然 RYB STUDIO",
+   "description": "《牧神的午後》——穿越平行時空的療癒森林 在繁忙的生活中，是否也渴望短暫逃離現實，讓心靈得以歇息？ 《牧神的午後》為廣受好評的《離線時區》展覽全新改版之作，延續原作療癒溫柔的風格，加入奇幻動物與森林意象，營造出如夢似幻的平行時空。觀眾將彷彿走入一座不存在於現實世界的奇幻森林，讓視覺與感官在光影間重新獲得能量。 展覽名…",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "huashan"
    ]
   },
   {
@@ -2240,6 +2146,36 @@
    ]
   },
   {
+   "id": "3322a79aa5",
+   "title": "「1111 project」—— 楊偉林｜蜂築 / 尋找一位詩人",
+   "venue": "曜畫廊",
+   "address": "松山區敦化北路166號 文華精品3樓",
+   "city": "臺北市",
+   "district": "松山區",
+   "lat": 25.06112,
+   "lng": 121.550855,
+   "geo_precision": "road",
+   "start": "2026-11-07",
+   "end": "2026-12-06",
+   "price": {
+    "text": "免費參與 ( 座位有限請儘早報名 )",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://www.accupass.com/event/2610281106342034723769",
+   "ticket_url": null,
+   "image": null,
+   "organizer": "",
+   "description": "「纖維」是什麼？ 是絲線、布料、樹皮、化學材料？ 是紡織的基本單位，還是分子之間互相吸引成鍵的結果？ 在藝術家楊偉林的作品中，「纖維」更像是一種概念，一種拆解、閱讀然後再組織萬物的方式。 誠如藝術家對這件作品的自述： 寫有香港詩人梁秉鈞詩句的紙線，穿過橫向與直立的竹筘、34根綜絲、梭子與圓環，在牽引與轉折之間，形成延…",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "moc"
+   ]
+  },
+  {
    "id": "289bd548cd",
    "title": "【新北市立圖書館淡水竹圍分館】 藝文展覽 《溪在生活裡--竹圍與樹梅坑溪的地方書寫展》",
    "venue": "淡水竹圍分館6樓自修室",
@@ -2297,6 +2233,70 @@
    "topics": [],
    "sources": [
     "culture_express"
+   ]
+  },
+  {
+   "id": "958c44152e",
+   "title": "2026 G-EIGHT 遊戲展",
+   "venue": "台北花博爭艷館",
+   "address": "台北市中山區玉門街1號",
+   "city": "臺北市",
+   "district": "中山區",
+   "lat": 25.069468,
+   "lng": 121.521244,
+   "geo_precision": "venue",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "price": {
+    "text": "NT$300–1280",
+    "free": false,
+    "min": 300,
+    "max": 1280,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40048",
+   "ticket_url": "https://tour.ibon.com.tw/event/6a94e88923eaae0474dfbb09",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/8d5ffdb0-49bc-473d-bd21-59709368cb02.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "花博公園爭艷館",
+    "爭艷館",
+    "爭豔館"
+   ],
+   "topics": [],
+   "sources": [
+    "ibon"
+   ]
+  },
+  {
+   "id": "4bdf5a6787",
+   "title": "【2026駐館藝術家開放工作室】「PRE-Remains」展覽導覽",
+   "venue": "國家音樂廳排練室一",
+   "address": "臺北市中正區中山南路21-1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.036756,
+   "lng": 121.519047,
+   "geo_precision": "source",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "price": {
+    "text": "需購票，請見官網",
+    "free": false,
+    "min": null,
+    "max": null,
+    "tickets": []
+   },
+   "url": "https://www.opentix.life/program/2112454717336662016",
+   "ticket_url": null,
+   "image": null,
+   "organizer": "",
+   "description": "",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "moc"
    ]
   },
   {
@@ -3920,6 +3920,43 @@
    ]
   },
   {
+   "id": "9bbe5af4b0",
+   "title": "歡迎來到霹靂宇宙大戲院．台北三創",
+   "venue": "台北三創",
+   "address": "台北市中正區市民大道三段2號3樓",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.045112,
+   "lng": 121.531149,
+   "geo_precision": "venue",
+   "start": "2026-02-10",
+   "end": "2026-12-31",
+   "price": {
+    "text": "NT$480–2000",
+    "free": false,
+    "min": 480,
+    "max": 2000,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39464",
+   "ticket_url": "https://tour.ibon.com.tw/event/6983052ff774864bb7f142ca",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/6af24551-dbd2-4872-992a-60036ed40c68.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "三創生活園區",
+    "三創園區",
+    "台北三創",
+    "臺北三創"
+   ],
+   "topics": [
+    "mall"
+   ],
+   "sources": [
+    "ibon"
+   ]
+  },
+  {
    "id": "40a52381a9",
    "title": "林園拾光：穿越古城名園的百年風華",
    "venue": "新北市立國定古蹟林本源園邸",
@@ -4446,6 +4483,36 @@
    ]
   },
   {
+   "id": "19f25efd60",
+   "title": "丹青磅礡見禪意~2026陳明貴書畫展",
+   "venue": "孟焦畫坊",
+   "address": "臺北市士林區",
+   "city": "臺北市",
+   "district": "士林區",
+   "lat": 25.09779,
+   "lng": 121.53218,
+   "geo_precision": "source",
+   "start": "2026-12-16",
+   "end": "2026-12-31",
+   "price": {
+    "text": "免費參觀",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://www.mengjiaogallery.com",
+   "ticket_url": null,
+   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB012YKpmszrRPPYSLiZrCQ3BeS1Bc5AtgUuP4pdDmQsyCopTjMsSynx5k2qY34ZQom6pInjueeEvcEuKk6%2bw%2bi4i0%3d",
+   "organizer": "孟焦畫坊",
+   "description": "文晞大師有首聯文曰：「聽濤我心能靜住，觀瀑吾眼見菩提」故其山水自帶神韻與禪意。在其寧逸恬靜的書畫線條背後，作品卻蘊藏著轟然佛影、禪定與虬龍翻騰的萬千氣勢，蕩蕩乎藏於諸山林中。筆者有幸拜覽大師之作，細細品味，每每皆有所得、有所思，猶如餘音迴盪，令人神往而忘返山林。縱觀其每一幅佳作，皆完美展現了「隱世儒俠」之禪意，堪為當…",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "culture_express"
+   ]
+  },
+  {
    "id": "03dbf867f2",
    "title": "木雕修護101",
    "venue": "朱銘美術館",
@@ -4587,6 +4654,36 @@
    ]
   },
   {
+   "id": "8df5615db8",
+   "title": "TCIA:虛實殘影",
+   "venue": "米豆藝術空間",
+   "address": "臺北市大同區",
+   "city": "臺北市",
+   "district": "大同區",
+   "lat": 25.05486,
+   "lng": 121.51609,
+   "geo_precision": "source",
+   "start": "2026-11-14",
+   "end": "2027-01-09",
+   "price": {
+    "text": "免費參觀",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://www.instagram.com/linzzhi5/",
+   "ticket_url": null,
+   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB0197NviFHnjfr0NNmzV8D5QyPrJeoY4HNkBeiXY4izdvsy%2bTfhBw%2fEnxsW9TCxn2TJh1jMZqTbuO3jRLOVU7V5lQ%3d",
+   "organizer": "米豆藝術空間",
+   "description": "藝術家林哲志以「錄像裝置」、「動力裝置」與「人工智能攝影」的創作手法發表了他的新系列作品。他回溯台灣早期間諜電影的發展脈絡，重新梳理其中的冷戰歷史、政治氛圍與英雄敘事，並試圖藉由虛構敘事、影像與空間裝置，將其連結於台灣當代的政治現實，探究影像與現實中的敵我變遷。",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "culture_express"
+   ]
+  },
+  {
    "id": "615c618e6a",
    "title": "《安娜史塔希亞 · 薩莫伊洛娃：影像的氣候》（Anastasia Samoylova: The Climate of Images）",
    "venue": "《安娜史塔希亞 · 薩莫伊洛娃：影像的氣候》（Anastasia Samoylova: The Climate of Images）",
@@ -4690,7 +4787,7 @@
    "lat": 25.04816,
    "lng": 121.59369,
    "geo_precision": "source",
-   "start": "2026-12-05",
+   "start": "2026-12-06",
    "end": "2027-01-11",
    "price": {
     "text": "免費參觀",
@@ -4699,11 +4796,11 @@
     "max": 0,
     "tickets": []
    },
-   "url": "https://cultureexpress.taipei/",
+   "url": "https://www.facebook.com/JingHsinYuan/?locale=zh_TW",
    "ticket_url": null,
    "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB0102DgcPzYaLAeyZTTpOvgYorsu2%2bjjNPZr5x2mNMEyn7fLGBuI5cPy2eNpXMXH%2bApkOOXiDvnI3KSH5weLBHi9w%3d",
-   "organizer": "臺北市溪山實驗國民小學、國立臺北護理健康大學、心暖心工作坊",
-   "description": "讓器物不只是器物， 而是陪伴我們三餐四季的日常家人。 誠摯邀請您走進這場手感與生活交織的陶藝展， 在樸實的器物之間，與生活裡的微光溫暖相遇。 開幕暨現場活動：2026 年 12 月 5 日（六）14:00-16:00 第一場【陶章 ✕ 陶盤｜溪山實小親子陶作義賣】14:30 正式起跑！ 第二場【捏一只小茶杯｜北護大青…",
+   "organizer": "臺北市溪山實驗國民小學、心暖心工作坊",
+   "description": "本次跨年展覽以「讓器物不只是器物，而是陪伴我們三餐四季的日常家人」為主題，展出多件蘊含生活溫度的手作器皿。為迎接新年，展覽期間特別規劃《買陶器送春聯》年節應景活動，為觀展民眾增添濃厚的年節喜氣；同時更攜手臺北市溪山實驗國民小學舉辦《陶章 ✕ 陶盤》親子陶作義賣專區，期盼將藝術轉化為支持教育的溫暖力量。我們誠摯邀請您走…",
    "keywords": [],
    "topics": [],
    "sources": [
@@ -4711,9 +4808,9 @@
    ]
   },
   {
-   "id": "c28f900638",
+   "id": "69810381db",
    "title": "《看不見的刻度》10/30 深刻登場，揭開工藝背後無形的時間重量",
-   "venue": "華山1914文化創意產業園區 芳釀所、中三前廣場、忠孝三角",
+   "venue": "華山1914文化創意產業園區 芳釀所",
    "address": "臺北市中正區八德路一段1號",
    "city": "臺北市",
    "district": "中正區",
@@ -4743,6 +4840,36 @@
    "topics": [],
    "sources": [
     "huashan"
+   ]
+  },
+  {
+   "id": "6562401db1",
+   "title": "照見・萬象心生—鄒佳哲創作個展",
+   "venue": "佛光緣美術館台北館",
+   "address": "臺北市信義區",
+   "city": "臺北市",
+   "district": "信義區",
+   "lat": 25.04829,
+   "lng": 121.57867,
+   "geo_precision": "source",
+   "start": "2026-11-28",
+   "end": "2027-01-17",
+   "price": {
+    "text": "免費參觀",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://www.facebook.com/TaipeiFgy",
+   "ticket_url": null,
+   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB01yYZFCZGDv6dg5OSbhl1%2fRfETOy5xybEq5dMfDW7GsH9gpR45A2ChSTNghnjzgGeNdAMQqXZKjsKBzYen1%2fkG3U%3d",
+   "organizer": "佛光緣美術館台北館",
+   "description": "《照見・萬象心生》以《華嚴經》「心如工畫師，能畫諸世間」為精神核心，呈現鄒佳哲由自我凝視走向他者與人間的創作歷程。作品分為《幽禁的靈魂》《島嶼禮讚》《臉龐與他者》《域外風景》四大系列，近80件作品。雙學士、雙碩士、雙博士，藝術家鄒佳哲透過身體、肖像、島嶼與風景，將生命記憶、苦難、信仰與精神感受轉化為可見圖像，在幽暗中…",
+   "keywords": [],
+   "topics": [],
+   "sources": [
+    "culture_express"
    ]
   },
   {
@@ -5074,6 +5201,38 @@
    ]
   },
   {
+   "id": "f10b9714ca",
+   "title": "共流-台灣 ‧ 金澤工藝展 CONFLUENCE: Craft Exchange between Taiwan and Kanazawa",
+   "venue": "MoNTUE 北師美術館",
+   "address": "臺北市大安區",
+   "city": "臺北市",
+   "district": "大安區",
+   "lat": 25.024567,
+   "lng": 121.544385,
+   "geo_precision": "venue",
+   "start": "2026-11-13",
+   "end": "2027-02-21",
+   "price": {
+    "text": "免費參觀",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://montue.ntue.edu.tw/%e5%85%b1%e6%b5%81%ef%bc%8d%e5%8f%b0%e7%81%a3-%e2%80%a7-%e9%87%91%e6%be%a4%e5%b7%a5%e8%97%9d%e5%b1%95-confluence-craft-exchange-between-taiwan-and-kanazawa/",
+   "ticket_url": null,
+   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB011e8mlhDQYmrqd%2btNCu03NAEmGasY4zVpdbZ9iqt4kAexEdtsogADs0P2bAL0HJgZlVlxDPLxarlQZV7ZHb3tz4%3d",
+   "organizer": "MoNTUE 北師美術館",
+   "description": "1925 年，金澤市意匠圖案研究會成立，以重思工藝與人的關係為始，逐步發展為今日的金澤市工藝協會，迄今已逾百年。北師美術館與金澤工藝協會合作，舉辦「共流-台灣‧金澤工藝展 」，邀請 83 組台灣與金澤的工藝家連袂展出，刻意不以國家、地域或媒材作為主要分類，而是關注於材料如何成為技藝？技藝如何進入生活？生活如何沉積成記…",
+   "keywords": [
+    "北師美術館"
+   ],
+   "topics": [],
+   "sources": [
+    "culture_express"
+   ]
+  },
+  {
    "id": "1f186ae07b",
    "title": "阮ê海海人生-臺韓海洋文化交流特展",
    "venue": "新北市立十三行博物館",
@@ -5218,10 +5377,114 @@
    ]
   },
   {
-   "id": "f7d48f4de1",
+   "id": "f854c2fe6f",
+   "title": "排球少年!!動畫10週年紀念展IMMERSIVE EXHIBITION",
+   "venue": "松山文創園區 多功能展演廳",
+   "address": "台北市松山文創園區 多功能展演廳",
+   "city": "臺北市",
+   "district": "信義區",
+   "lat": 25.043723,
+   "lng": 121.560797,
+   "geo_precision": "venue",
+   "start": "2026-12-25",
+   "end": "2027-03-28",
+   "price": {
+    "text": "NT$390–900",
+    "free": false,
+    "min": 390,
+    "max": 900,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40047",
+   "ticket_url": "https://tour.ibon.com.tw/event/6acde3ec24345e364c2dc7d2",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/5bd7c993-12ac-4faf-804e-58de0afb2de2.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "松山文創園區",
+    "松菸",
+    "松山菸廠"
+   ],
+   "topics": [],
+   "sources": [
+    "ibon"
+   ]
+  },
+  {
+   "id": "d5abd7417a",
+   "title": "國家地理影像方舟20週年特展",
+   "venue": "華山1914文創園區 東2C、D館",
+   "address": "台北市華山1914文創園區 東2C、D館",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-12-25",
+   "end": "2027-04-06",
+   "price": {
+    "text": "NT$400–840",
+    "free": false,
+    "min": 400,
+    "max": 840,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40058",
+   "ticket_url": "https://tour.ibon.com.tw/event/6ad5b477c3c71f55c2d2e433",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/49b2e085-07b3-4a5f-873f-1b6f5e816d49.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "ibon"
+   ]
+  },
+  {
+   "id": "86fdd42669",
+   "title": "膽大黨Animation Works展",
+   "venue": "華山1914文創園區 東2A、B館",
+   "address": "台北市中正區八德路一段1號",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.044609,
+   "lng": 121.529183,
+   "geo_precision": "venue",
+   "start": "2026-12-25",
+   "end": "2027-04-06",
+   "price": {
+    "text": "NT$390–900",
+    "free": false,
+    "min": 390,
+    "max": 900,
+    "tickets": []
+   },
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40056",
+   "ticket_url": "https://tour.ibon.com.tw/event/6ae047073e02024544d0e86a",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/5ec92bb7-0b41-43f9-bb04-09e15e77a3f6.jpg",
+   "organizer": "",
+   "description": "",
+   "keywords": [
+    "華山1914文化創意產業園區",
+    "華山1914",
+    "華山文創園區",
+    "華山文化園區"
+   ],
+   "topics": [],
+   "sources": [
+    "ibon"
+   ]
+  },
+  {
+   "id": "fc79a9034b",
    "title": "《最強台灣媽——媽祖文化展》",
-   "venue": "臺北花博公園流行館",
-   "address": "臺北市中山區玉門街1號",
+   "venue": "臺北市花博公園流行館",
+   "address": "臺北市中山區圓山里玉門街1號",
    "city": "臺北市",
    "district": "中山區",
    "lat": 25.069468,
@@ -5230,15 +5493,15 @@
    "start": "2027-01-01",
    "end": "2027-04-06",
    "price": {
-    "text": "需購票，請見官網",
+    "text": "NT$299–399",
     "free": false,
-    "min": null,
-    "max": null,
+    "min": 299,
+    "max": 399,
     "tickets": []
    },
-   "url": "https://www.opentix.life/program/2115274531652624385",
-   "ticket_url": null,
-   "image": null,
+   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40034",
+   "ticket_url": "https://tour.ibon.com.tw/event/6ae1614d447c2909b417eeda",
+   "image": "https://tour.ibon.com.tw/allticket-prod/media/f16f115f-bcf5-4d5c-950f-6ceae19072d6.jpg",
    "organizer": "",
    "description": "",
    "keywords": [
@@ -5248,39 +5511,8 @@
    ],
    "topics": [],
    "sources": [
+    "ibon",
     "moc"
-   ]
-  },
-  {
-   "id": "b8935edd18",
-   "title": "現代藝術百年：莫內到馬諦斯-托雷多美術館珍藏展 II",
-   "venue": "富邦美術館 1樓",
-   "address": "台北市信義區松高路79號",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.039284,
-   "lng": 121.571232,
-   "geo_precision": "venue",
-   "start": "2026-12-12",
-   "end": "2027-04-13",
-   "price": {
-    "text": "NT$500",
-    "free": false,
-    "min": 500,
-    "max": 500,
-    "tickets": []
-   },
-   "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/40014",
-   "ticket_url": "https://tour.ibon.com.tw/event/6acddf7da8f7cb43cb120083",
-   "image": "https://tour.ibon.com.tw/allticket-prod/media/a81886d4-0a8e-47c8-a12f-a80636496764.jpg",
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "富邦美術館"
-   ],
-   "topics": [],
-   "sources": [
-    "ibon"
    ]
   },
   {
@@ -5318,6 +5550,7 @@
    "topics": [],
    "sources": [
     "culture_express",
+    "ibon",
     "moc"
    ]
   },
@@ -5530,40 +5763,6 @@
    ]
   },
   {
-   "id": "f2b8e47183",
-   "title": "寶可夢 × 工藝展：美與匠心的綺趣相遇",
-   "venue": "松山文創園區 5號倉庫",
-   "address": "臺北市信義區光復南路133號",
-   "city": "臺北市",
-   "district": "信義區",
-   "lat": 25.043723,
-   "lng": 121.560797,
-   "geo_precision": "venue",
-   "start": "2027-02-08",
-   "end": "2027-05-02",
-   "price": {
-    "text": "需購票，請見官網",
-    "free": false,
-    "min": null,
-    "max": null,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/2105226400121249793",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "",
-   "description": "",
-   "keywords": [
-    "松山文創園區",
-    "松菸",
-    "松山菸廠"
-   ],
-   "topics": [],
-   "sources": [
-    "moc"
-   ]
-  },
-  {
    "id": "fd07535bd3",
    "title": "寶可夢 × 工藝展：美與匠心的綺趣相遇",
    "venue": "松山文創園區-五號倉庫",
@@ -5594,7 +5793,8 @@
    ],
    "topics": [],
    "sources": [
-    "ibon"
+    "ibon",
+    "moc"
    ]
   },
   {
@@ -5731,6 +5931,94 @@
    ]
   },
   {
+   "id": "93dfe72d65",
+   "title": "藥知道你是誰 — 探索藥與基因的科學解謎之旅",
+   "venue": "國立臺灣科學教育館 8F中廊 票價： 入場免費",
+   "address": "臺北市士林區士商路189號",
+   "city": "臺北市",
+   "district": "士林區",
+   "lat": 25.096127,
+   "lng": 121.516704,
+   "geo_precision": "venue",
+   "start": "2026-11-07",
+   "end": "2027-10-31",
+   "price": {
+    "text": "憑科教館當日常設展或特展門票參觀；常設展全票120元；優待票90元",
+    "free": false,
+    "min": 90,
+    "max": 120,
+    "tickets": [
+     {
+      "name": "常設展全票",
+      "amount": 120
+     },
+     {
+      "name": "優待票",
+      "amount": 90
+     }
+    ]
+   },
+   "url": "https://www.ntsec.gov.tw/article/detail.aspx?a=6173",
+   "ticket_url": null,
+   "image": "https://www.ntsec.gov.tw/images/ArticleListPic/6173_2.jpg",
+   "organizer": "國立臺灣科學教育館",
+   "description": "為什麼同樣的藥、同樣的劑量，對不同的人可能有不同的效果？有人吃藥很有效，有人卻出現不良反應。原來，除了年齡、身體狀況與生活習慣，每個人與生俱來的基因差異，也可能影響身體對藥物的反應。藥物進入身體後，身體如何被吸收與代謝？我們又該如何找到更適合自己的用藥方式？ 本展覽從「認識自己」出發，串聯台灣族群基因資料、基因體科學…",
+   "keywords": [
+    "國立臺灣科學教育館",
+    "科教館"
+   ],
+   "topics": [
+    "science"
+   ],
+   "sources": [
+    "ntsec"
+   ]
+  },
+  {
+   "id": "6fa0dcb051",
+   "title": "「想．玩：好奇球之旅」特展",
+   "venue": "國立臺灣科學教育館 國立臺灣科學教育館7樓東側特展區（臺北市士林區士商路189 號） 開放時間： 平日 09:00 - 17:00 假日及寒暑假 09:00 - 18:00（每週一與除夕休館，寒暑假除外） 購票好康： 每張門票均附贈專屬「好奇球」一顆，憑本展門票或手章還可免費參觀科教館3-6樓常設展區喔！ 售票資訊： 可於本館1樓售票處購票，或是點選連結 https://ntsec.fonticket.com/ 進行線上購票。",
+   "address": "臺北市士林區士商路189號",
+   "city": "臺北市",
+   "district": "士林區",
+   "lat": 25.096127,
+   "lng": 121.516704,
+   "geo_precision": "venue",
+   "start": "2026-11-07",
+   "end": "2027-11-14",
+   "price": {
+    "text": "憑科教館當日常設展或特展門票參觀；常設展全票120元；優待票90元",
+    "free": false,
+    "min": 90,
+    "max": 120,
+    "tickets": [
+     {
+      "name": "常設展全票",
+      "amount": 120
+     },
+     {
+      "name": "優待票",
+      "amount": 90
+     }
+    ]
+   },
+   "url": "https://www.ntsec.gov.tw/article/detail.aspx?a=6182",
+   "ticket_url": null,
+   "image": "https://www.ntsec.gov.tw/images/ArticleListPic/6182_2.jpg",
+   "organizer": "國立臺灣科學教育館",
+   "description": "「想玩」是一種天性，反思我們的日常，是不是常將學習、工作與「玩心」分開了？ 隨著科技的發展，當人工智慧能減緩費時、費力與重複性的工作，幫助人們快速的學習，我們是否有可能重新思考，如何營造一個能展現創造力與終身學習的社會？ 展覽將帶領觀眾重新體會「想」與「玩」之於個人及群體的意義，並透過一系列科學藝術裝置、互動展品、教…",
+   "keywords": [
+    "國立臺灣科學教育館",
+    "科教館"
+   ],
+   "topics": [
+    "science"
+   ],
+   "sources": [
+    "ntsec"
+   ]
+  },
+  {
    "id": "4b4ffd8001",
    "title": "技職FUN星際介紹",
    "venue": "國立臺灣科學教育館 8 樓西南展區",
@@ -5772,6 +6060,38 @@
    ],
    "sources": [
     "ntsec"
+   ]
+  },
+  {
+   "id": "5dbb736707",
+   "title": "國立中正紀念堂管理處「她的民主路」常設展",
+   "venue": "國立中正紀念堂 三樓 多媒體人權展區",
+   "address": "臺北市中正區",
+   "city": "臺北市",
+   "district": "中正區",
+   "lat": 25.034576,
+   "lng": 121.521781,
+   "geo_precision": "venue",
+   "start": "2026-11-05",
+   "end": "2029-10-31",
+   "price": {
+    "text": "免費參觀",
+    "free": true,
+    "min": 0,
+    "max": 0,
+    "tickets": []
+   },
+   "url": "https://openmuseum.tw/muse/exhibition/a48364631be89f440d2a2d9b9bcd0826",
+   "ticket_url": null,
+   "image": "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB0180%2bpwwRYpd%2bqSOlqR3JIsTbCdZ7oCVT4c5%2fICnvWgs2W%2bXRUEC7RE2aRE2KsCKg8d8Y6%2bR%2fRauGrAsOngwlq20%3d",
+   "organizer": "國立中正紀念堂管理處",
+   "description": "✨展覽3大亮點 16位女性與團體，串起百年民主故事：從日治時期、戒嚴年代到解嚴後的當代，串起臺灣百年來的民主行動軌跡。 浮空投影-看見民主綻放的力量：以大樹為核心，讓後人在前輩的努力下享受餘蔭並大步邁進。欣賞百合隨浪而生、在光影中盛放的影像，感受女性行動者的堅韌與力量。 互動體驗-走出自己的民主之路：透過「她們的時代…",
+   "keywords": [
+    "中正紀念堂"
+   ],
+   "topics": [],
+   "sources": [
+    "culture_express"
    ]
   },
   {
@@ -5832,14 +6152,15 @@
    "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/37600",
    "ticket_url": "https://tour.ibon.com.tw/event/639a87c55791ae161448c23d",
    "image": "https://tour.ibon.com.tw/allticket-prod/media/e0ad4bd9-b773-49fc-a82b-a6f4fac996dc.jpg",
-   "organizer": "",
+   "organizer": "文化部",
    "description": "",
    "keywords": [
     "臺北流行音樂中心"
    ],
    "topics": [],
    "sources": [
-    "ibon"
+    "ibon",
+    "moc"
    ]
   },
   {
@@ -5877,38 +6198,6 @@
    "topics": [],
    "sources": [
     "culture_express",
-    "moc"
-   ]
-  },
-  {
-   "id": "1768445811",
-   "title": "2026【唱 我們的歌 流行音樂故事展】",
-   "venue": "臺北流行音樂中心文化館",
-   "address": "臺北市南港區忠孝東路七段99號",
-   "city": "臺北市",
-   "district": "南港區",
-   "lat": 25.051634,
-   "lng": 121.599389,
-   "geo_precision": "venue",
-   "start": "2026-01-01",
-   "end": "2030-12-31",
-   "price": {
-    "text": "免費（非售票活動）",
-    "free": true,
-    "min": 0,
-    "max": 0,
-    "tickets": []
-   },
-   "url": "https://www.opentix.life/program/1997861121855938561",
-   "ticket_url": null,
-   "image": null,
-   "organizer": "文化部",
-   "description": "",
-   "keywords": [
-    "臺北流行音樂中心"
-   ],
-   "topics": [],
-   "sources": [
     "moc"
    ]
   },
@@ -5980,50 +6269,6 @@
    "image": "https://www.ntsec.gov.tw/images/ArticleListPic/5565_2.jpg",
    "organizer": "國立臺灣科學教育館",
    "description": "CCC (Cosmos Co-Creation) Open Studio以「看見創造」為空間精神，由豪華朗機工藝術團隊與三頁文設計團隊進駐本館B1西南側空間，與本館共同合作展覽策劃、藝術作品研發、專題講座、工作坊等共創內容，將手腦並作的實驗發展過程，呈現為工作展演，也是創造作品的現場。 「永遠都會回到人的創造性。」在…",
-   "keywords": [
-    "國立臺灣科學教育館",
-    "科教館"
-   ],
-   "topics": [
-    "science"
-   ],
-   "sources": [
-    "ntsec"
-   ]
-  },
-  {
-   "id": "92a4634175",
-   "title": "《末日學校》特展",
-   "venue": "國立臺灣科學教育館 4樓東側展區",
-   "address": "臺北市士林區士商路189號",
-   "city": "臺北市",
-   "district": "士林區",
-   "lat": 25.096127,
-   "lng": 121.516704,
-   "geo_precision": "venue",
-   "start": "2024-07-31",
-   "end": null,
-   "price": {
-    "text": "憑科教館當日常設展或特展門票參觀；常設展全票120元；優待票90元",
-    "free": false,
-    "min": 90,
-    "max": 120,
-    "tickets": [
-     {
-      "name": "常設展全票",
-      "amount": 120
-     },
-     {
-      "name": "優待票",
-      "amount": 90
-     }
-    ]
-   },
-   "url": "https://www.ntsec.gov.tw/article/detail.aspx?a=5462",
-   "ticket_url": null,
-   "image": "https://www.ntsec.gov.tw/images/ArticleListPic/5462_2.png",
-   "organizer": "國立臺灣科學教育館",
-   "description": "「末日學校」計畫開始於2018年，由AND臺灣藝術與科技中心(Taiwan Arts and Technology Center)支持的科技藝術實驗計畫。當時以「辦理末日學校招生說明會」形式，在臺灣當代文化實驗場 (C-LAB) 展出，開啟一場藝術科學跨領域的公眾對話。近年來，科學家對於氣候變遷、全球暖化、物種消失、…",
    "keywords": [
     "國立臺灣科學教育館",
     "科教館"
